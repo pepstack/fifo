@@ -1,0 +1,90 @@
+# Prerequisites
+*.d
+*.pyc
+*.stackdump
+
+# unauthorized properties
+src/shmmap.h
+
+./libclogger.a
+./logapp
+
+.git/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# MS VC files
+*.sdf
+*.opensdf
+*.suo
+*.VC.db
+*.VC.opendb
+
+.vs/
+build/
+target/
+
+# Linker output
+*.ilk
+*.map
+*.exp
+*.iobj
+*.ipdb
+
+# Precompiled Headers
+*.gch
+*.pch
+*.Po
+
+# Libraries
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Temporary Files
+stamp-h1
+*~
+~*
+*.log
+*.dirstamp
+*.scan
+*.m4
+m4/
+libs/
+local-pkgs/
+.deps/
+.libs/
+autom4te.cache/
+logs/
+wrappers/gen-projects/
+wrappers/clogdbcfg/*.dbcfg
