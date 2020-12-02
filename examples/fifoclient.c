@@ -56,7 +56,7 @@ int main (int argc, char *argv[])
     atexit(appexit_cleanup);
 
     if (fifo_client_new(0, 3000, &client) == 0) {
-        while(i++ < 1000) {
+        while(i++ < 10000) {
             len = snprintf(msg.msgbuf, sizeof(msg.msgbuf), "[%d] hello from client", i);
             msg.msgsz = len;
 
